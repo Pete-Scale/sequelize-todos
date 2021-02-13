@@ -1,7 +1,10 @@
 const express = require('express')
 const router = express.Router()
 
-// router.get()
+router.get('./api/todos', (req, res) => {
+    console.log(req.body)
+    res.end()
+})
 
 // router.post()
 
